@@ -1,2 +1,5 @@
 ﻿  list.c
-  单链表.vcxproj -> C:\Users\a123\Desktop\code\UP\数据结构\链表\单链表\Debug\单链表.exe
+  main.c
+  正在生成代码...
+  LINK : 没有找到 F:\code\win_code_UP\数据结构\链表\单链表\Debug\单链表.exe 或上一个增量链接没有生成它；正在执行完全链接
+  单链表.vcxproj -> F:\code\win_code_UP\数据结构\链表\单链表\Debug\单链表.exe

@@ -10,11 +10,29 @@ void printArr(int* arr, int size)
 	printf("\n");
 }
 
+void swap(int* a, int* b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
 void selectSort(int* arr, int size)
 {
-	for (int i = 1; i < size; i++)
+	for (int i = 0; i < size; i++)
 	{
-
+		int min = i;
+		for (int j = i; j < size; j++)
+		{
+			if (arr[min] > arr[j])
+			{
+				min = j;
+			}
+		}
+		if (min != i)
+		{
+			swap(&arr[min], &arr[i]);
+		}
 	}
 }
 
